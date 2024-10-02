@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 16px 24px;
+  color: #fff;
+  font-size: 18px;
+  background-color: rgb(87, 149, 241);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popup-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  display: none;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.active {
+  display: block;
+}
